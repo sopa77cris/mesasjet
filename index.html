@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesas JET</title>
+    <link rel="stylesheet" href="style.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <div class="container">
+        <!-- Tarjetas existentes -->
+        <div class="card">
+            <div class="chip"></div>
+            <h3>Mesas de 750</h3>
+            <p id="mesa750" class="cantidad"></p>
+            <p>XXXX-XXXX-9049</p>
+            <p id="total750" class="total"></p>
+        </div>
+        <div class="card">
+            <div class="chip"></div>
+            <h3>Mesas de 850</h3>
+            <p id="mesa850" class="cantidad"></p>
+            <p>XXXX-XXXX-9049</p>
+            <p id="total850" class="total"></p>
+        </div>
+        <div class="card">
+            <div class="chip"></div>
+            <h3>Mesas de 950</h3>
+            <p id="mesa950" class="cantidad"></p>
+            <p>XXXX-XXXX-9049</p>
+            <p id="total950" class="total"></p>
+        </div>
+        <div class="card">
+            <div class="chip"></div>
+            <h3>Mesas de otros montos</h3>
+            <p id="mesa850c" class="cantidad"></p>
+            <p>XXXX-XXXX-9049</p>
+            <p id="total850c" class="total"></p>
+        </div>
+
+        <!-- Total de todas las mesas -->
+        <div class="card">
+            <div class="chip"></div>
+            <h3>Total de todas las mesas</h3>
+            <p id="totalGeneral" class="cantidad"></p>
+        </div>
+
+        <div class="card" id="gastoCard">
+            <div class="chip"></div>
+            <h3>Gastos Totales</h3>
+            <!-- Aquí se mostrarán los totales -->
+            <p id="gastoComision" class="gastos"></p>
+            <p id="gastoOtros" class="gastos"></p>
+            <p id="gastoTotal" class="total"></p>
+
+            <!-- Aquí se mostrarán los detalles -->
+            <div id="detallesGastos" class="detalles">
+                <p>Comisiones:</p>
+                <ul id="comisionesDetalle">
+                    <!-- Los detalles se llenarán con JavaScript -->
+                </ul>
+                <p>Otros Gastos:</p>
+                <ul id="otrosGastosDetalle">
+                    <!-- Los detalles se llenarán con JavaScript -->
+                </ul>
+            </div>
+        </div>
+
+
+    <script src="script.js"></script> <!-- Enlace al archivo JS -->
+</body>
+</html>
